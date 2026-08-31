@@ -1,0 +1,59 @@
+[
+  {
+    "question": "how does flask handle url routing",
+    "correct_chunks": ["url_for", "add_url_rule"]
+  },
+  {
+    "question": "how does flask manage request context",
+    "correct_chunks": ["has_request_context", "AppContext"]
+  },
+  {
+    "question": "how does flask serve static files",
+    "correct_chunks": ["send_file", "send_from_directory"]
+  },
+  {
+    "question": "how does flask handle flash messages",
+    "correct_chunks": ["flash", "get_flashed_messages"]
+  },
+  {
+    "question": "how does flask handle errors",
+    "correct_chunks": ["errorhandler", "abort"]
+  },
+  {
+    "question": "how does flask read environment variables for debug mode",
+    "correct_chunks": ["get_debug_flag", "get_load_dotenv"]
+  },
+  {
+    "question": "how does flask redirect a request",
+    "correct_chunks": ["redirect"]
+  },
+  {
+    "question": "how does flask stream a response",
+    "correct_chunks": ["stream_with_context"]
+  },
+  {
+    "question": "how does flask determine the root path of an application",
+    "correct_chunks": ["get_root_path"]
+  },
+  {
+    "question": "how does flask get a template attribute",
+    "correct_chunks": ["get_template_attribute"]
+  },
+  {
+    "question": "how does flask split a blueprint path",
+    "correct_chunks": ["_split_blueprint_path"]
+  },
+  {
+    "question": "how does flask check if an app context is active",
+    "correct_chunks": ["has_app_context"]
+  },
+  {
+    "question": "how does flask build a response object",
+    "correct_chunks": ["make_response"]
+  },
+  {
+    "question": "how does flask collect multiple errors together",
+    "correct_chunks": ["_CollectErrors", "raise_any"]
+  }
+
+]
